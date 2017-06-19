@@ -1,0 +1,105 @@
+body{
+	background-color: lavender;
+}
+
+.container{
+	width: 1422px;
+	margin: auto;
+}
+
+.logo{
+	display:block;
+	max-width: 41%;
+	margin: 5px;
+	margin-left: 31px; 
+	padding: 31px;
+
+}
+.Menu{
+	float: left;
+	margin: 2px;
+	border:1px solid blue;
+	padding: 5px;
+	height: 371px;
+
+}
+
+#qc{
+	border-top: 1px dashed blue;
+	border-bottom:1px dashed blue;
+	padding: 19px;
+	height: 385px;
+}
+
+div.quangcao img{
+	float: left;
+	/*position: absolute;
+    top: 318px;
+    left: 167px;
+    height: 308.13px;*/
+}
+.quangcao {
+	display: inline-block;
+	float: left;
+	width: 1200px;
+}
+.quangcao1{
+	float: left;
+	/*position: absolute;
+	top:0;
+	right:0;*/
+}
+
+#dh{
+    width: 1496px;
+    height: 314px;
+    padding: 0px;
+  /*  border-top: 1px solid blue;
+    border-bottom:1px solid blue;
+*/
+}
+
+#dh{
+	border-bottom: 1px dashed blue;
+	float: left;
+}
+#dh img{
+	margin: 7px;
+	padding: 0px;
+	width: 24.5%;
+	height:100%;
+}
+
+#tl{
+	border-bottom: 1px dashed blue;
+	float: left;
+}
+#tl img{
+	margin: 7px;
+	padding: 0px;
+	width: 28%;
+	height:100%;
+}
+
+.position{
+	position: fixed;
+	bottom: 19px;
+	right: 26px;
+	width: 2.5%
+}
+
+a{text-decoration: none;
+}
+
+
+span{
+	color: black;
+}
+
+h4{
+	color: blue;
+}
+
+h4:hover{
+	color: red;
+}
