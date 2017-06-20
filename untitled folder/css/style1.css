@@ -1,0 +1,74 @@
+@keyframes title{
+	0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	animation: title 5s ease infinite;
+
+}
+
+.group1 {
+	width: 1240px;
+	height: 250px; 
+	margin: auto; 
+	padding: 30px;
+	overflow: hidden;
+
+}
+
+.group1 img {
+	width: 30%;
+	height: 100%;
+	margin: 10px;
+	opacity: 0.5;
+	transition: all 0.7s linear;
+	box-shadow: 13px 13px 9px 2px grey;
+}
+
+.group1 img:hover{
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.group2 {
+	width: 1240px;
+	height: 250px; 
+	margin: auto;
+	padding: 30px;
+}
+
+.group2 img {
+	width: 30%;
+	height: 100%;
+	margin: 10px;
+	opacity: 0.5;
+	transition:all 0.5s linear;
+	box-shadow: 13px 13px 9px 2px grey;
+}
+
+.group2 img:hover{
+	opacity: 1;
+	transform: translate(10px, -10px);
+}
+
+@keyframes edit{
+	/*0%*/ from{transform: translate(0,0); opacity: 0}
+	/*25%*/ to {transform: translate(-500px,0); opacity: 1}
+	/*50% *//*from{transform: translate(-500px,0);}*/
+	/*100% *//*to{transform: translate(0,0);}*/
+}	
+
+h4{
+	float: right;
+	margin: 50px;
+	font-size: 20px;
+	animation: edit 5s infinite alternate;
+	animation-delay: 1s;
+	opacity: 0
+}
