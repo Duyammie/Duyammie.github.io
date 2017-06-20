@@ -83,6 +83,66 @@ div.quangcao img{
 	height:100%;
 }
 
+#mg{
+	border-bottom: 1px dashed blue;
+	float: left;
+	width: 1422px;
+}
+#mg img{
+	margin: 7px;
+	padding: 0px;
+	width: 25.5%;
+	height:100%;
+}
+
+#tb{
+	border-bottom: 1px dashed blue;
+	float: left;
+	width: 1422px;
+}
+#tb img{
+	margin: 7px;
+	padding: 0px;
+	width: 24.4%;
+	height:100%;
+}
+
+#lt{
+	border-bottom: 1px dashed blue;
+	float: left;
+	width: 1422px;
+}
+#lt img{
+	margin: 7px;
+	padding: 0px;
+	width: 27%;
+	height:100%;
+}
+
+#bnn{
+	border-bottom: 1px dashed blue;
+	float: left;
+	width: 1422px;
+}
+#bnn img{
+	margin: 7px;
+	padding: 0px;
+	width: 27%;
+	height:100%;
+}
+
+#b{
+	border-bottom: 1px dashed blue;
+	float: left;
+	width: 1422px;
+}
+#b img{
+	margin: 7px;
+	padding: 0px;
+	width: 27%;
+	height:100%;
+}
+
 .position{
 	position: fixed;
 	bottom: 19px;
