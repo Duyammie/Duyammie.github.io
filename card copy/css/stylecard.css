@@ -83,6 +83,11 @@ p{
 	opacity: 1;
 }
 
+body::scrollbar {
+	background: transparent;
+	width: 1px;
+}
+
 
 
 
@@ -116,7 +121,7 @@ p{
 	color: #20b9d4;
 	opacity: 0.75;
 	z-index: 2;
-	transform: scale(1.5);
+	transform: scale(1);
 }
 .firework-grp2{
 	transform: rotate(180deg);
@@ -378,7 +383,13 @@ p{
 /*................................................................*/
 
 audio{
-	opacity: 0.3;
+    opacity: 0.1;
+    width: 500px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
 
 }
 
