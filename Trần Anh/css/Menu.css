@@ -16,11 +16,12 @@ body{
 
 }
 .Menu{
-	float: left;
+	position: absolute;
 	margin: 2px;
 	border:1px solid blue;
 	padding: 5px;
 	height: 371px;
+	width: 10%;
 
 }
 
@@ -29,26 +30,29 @@ body{
 	border-bottom:1px dashed blue;
 	padding: 19px;
 	height: 385px;
+	width: 986px;
 }
 
-div.quangcao img{
+.q1 {
 	float: left;
+	margin-left: 140.66px;
+	width: 57.3%
 	/*position: absolute;
     top: 318px;
     left: 167px;
     height: 308.13px;*/
+}
+
+.q2 {
+	width: 25.3%;
+	float: left;
 }
 .quangcao {
 	display: inline-block;
 	float: left;
 	width: 1200px;
 }
-.quangcao1{
-	float: left;
-	/*position: absolute;
-	top:0;
-	right:0;*/
-}
+
 
 #dh{
     width: 1496px;
