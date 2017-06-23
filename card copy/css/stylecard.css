@@ -1,10 +1,31 @@
 *{
 	margin: 0;
 	padding:0;
+	border: 0;
+	box-sizing: border-box;
 }
 
-body { background-color:black; }
+body { 
+	background-color:black; }
 
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color: #CCCCCC;
+}
+::-webkit-scrollbar{
+	width: 5px;
+	background-color:rgba(234, 174, 221, 0.33);
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #D62929;
+	background-image: -webkit-linear-gradient(90deg,
+											   #9C27B0,
+											  rgb(197, 125, 210) 37%,
+											  #d4a2dc,
+											  #e2b2ea)
+}
 #snow{
 	background: none;
 	font-family: Androgyne;
@@ -41,9 +62,8 @@ body { background-color:black; }
 	justify-content: center;
 	align-content: center;
 	z-index: 4;
-	overflow: auto;
+	overflow:overlay;
 }
-
 
 h3 {
 	position:absolute;
@@ -63,9 +83,9 @@ p{
 	opacity: 0;
 	font-size: 30px;
 	text-indent:36px; 
-	text-align: justify;
-	margin: 43px;
+	text-align: center;
 	color: cyan;
+
 }
 
 .opactiy .div {
@@ -83,11 +103,22 @@ p{
 	opacity: 1;
 }
 
-body::scrollbar {
-	background: transparent;
-	width: 1px;
+.div{
+	transform: scale(0);
+	transition-duration:1s;
+	left: -250px;
+
 }
 
+.test:hover .div{
+	transform: scale(1);
+}
+
+.color{
+	width: 500px;
+	background:rgba(255, 255, 255, 0.26);
+	padding: 43px;
+}
 
 
 
