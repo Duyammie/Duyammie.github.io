@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding:0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.background, #background2{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	z-index: 50;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: none;
+	text-align: center;
+}
+
+.background .a{
+	width: 100%;
+	height:100%;
+}
+
+.background .header{
+	width: 25%;
+	height: 7%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 51;
+}
+h1{
+	position: absolute;
+	background: transparent;
+	z-index: 51;
+	font-size: 85px;
+	color: white;
+	font-family: 'Lobster Two', cursive;
+}
+
+.order{
+	display: inline-block;
+	position: absolute;
+	top:62%;
+}
+.order1 , .order2 {
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	margin: 0 15px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#background2 .b{
+	width: 100%;
+	height:100%;
+} 
+
+#background2 img {
+	position: absolute;
+	float: left;
+}
+.text{
+	position: absolute;
+	background: transparent;
+	color: black;
+	top: 77%;
+}
+
+.text h2{
+	font-size: 40px;
+}
+
+.text1{
+	width: 807px;
+	height: 90px;
+}
+
+#background3{
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+
+#background3 .left{
+	width: 50%;
+	float: left;
+	height: 800px;
+}
+
+#background3 .c{
+	width: 100%;
+	height: 800px;
+
+}
+
+#background3 h3{
+	position: absolute;
+	top: 0;
+	left: 33%;
+	font-size: 40px;
+	color: white;
+	margin-top: 24px;
+	z-index: 10;
+}
+.store1{
+	margin-top: 30px;
+    min-height: 107px;
+    padding-bottom: 30px;
+    width: 500px;
+    
+}
+#background3 .store1:first-child{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+#background3 #stores{
+	position: absolute;
+	top:20%;
+	left: 10%;
+	line-height: 50px;
+}
+
+#background3  .float{
+	float: left !important;
+	margin-right: 10px;
+
+}
+
+.text2{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.text3{
+	color: #7f7f7f;
+	font-size: 17px;
+}
+
+#background3 .right{
+	width: 50%;
+	float: right;
+	height: 800px;
+}
+
+#background3 #cuahang{
+	position: absolute;
+	top:20%;
+	right: 10%;
+	line-height: 50px;
+}
+
+.Menu{
+	display: block;
+    position: absolute;
+    top: 0;
+    text-align: right;
+    height: 6%;
+    width: 100%;
+    background: #333;
+    z-index: 51;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+    display: inline-flex;
+    margin: 11px 0px;
+}
+span{
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
