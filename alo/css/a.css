@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding:0;
+	border: 0;
+	box-sizing: border-box;
+	background: rgba(128, 128, 128, 0.05);
+}
+
+/*--- menu 3 --*/
+.menu3-part{
+	min-height: 700px;
+	width: 100%;
+	position: relative;
+	margin: 150px 0;
+	transition: all 0.5s;
+	margin-top:100px;
+}
+.menu3-left{
+	width: 50%;
+	position: absolute;
+	left: 0;
+	top: -80px;
+	background: #000;
+	transition: all 0.5s;
+
+}
+.ct-menu3{
+	padding: 20px;
+	background:rgb(138, 156, 165);
+}
+.menu3-right{
+	width: 70%;
+	float: right;
+	transition: all 0.5s;
+}
+.menu3-part.right .menu3-left{
+	right: 0;
+	left: inherit;
+
+}
+.menu3-part.right .menu3-right{
+	float: none;
+}
+
+@media (max-width: 1199px){
+
+	.about-right .box-1{
+		padding: 5%;
+	}
+}
+
+@media (max-width: 991px){
+	.left-ct-menu{
+		width: 100%;
+		padding-top: 25%;
+	}
+	td.tooltip-element{
+		position: static;
+	}
+	.about-right .box-1 p{
+		line-height: 22px;
+	}
+	.pop-right{
+		padding: 15px 20px;
+	}
+}
+@media (max-width: 767px){
+	.about-left, .about-right{
+		width: 100% !important;
+	}
+	.pop-left, .pop-right{
+		width: 100%;
+	}
+	.table-menu td b{
+		font-size: 14px;
+	}
+	.table-menu th {
+		font-size: 16px;
+	}
+}
+@media (max-width: 479px){
+	.main-img-menu{
+		display: none;
+	}
+	#css3-animated-example .content.img-1 {
+		height: 100%;
+		background: url('../images/img-1.jpg') no-repeat;
+		background-size: cover;
+	}
+	#css3-animated-example .content.img-2 {
+		height: 100%;
+		background: url('../images/img-2.jpg') no-repeat;
+		background-size: cover;
+	}
+	#css3-animated-example .content.img-3 {
+		height: 100%;
+		background: url('../images/img-3.jpg') no-repeat;
+		background-size: cover;
+	}
+	.left-ct-menu{
+		padding-top: 36%;
+	}
+	#css3-animated-example h3.open + div{
+		height: 570px !important;
+	}
+	.about-right .box-3{
+		padding: 20px 15px;
+		/*min-height: 600px;*/
+	}
+	td.tooltip-element h5 b{
+		display: block;
+	}
+	.menu2-list .ct-menu2.right, .menu2-list .ct-menu2{
+		width: 90% !important;
+		left: 5% !important;
+	}
+	.parallax-window1, .parallax-window2, .parallax-window3, .parallax-window4{
+		min-height: 910px;
+	}
+	.menu-2{
+		margin-top: 100px;
+	}
+	.menu3-part{
+		margin: 0;
+		min-height: 850px;
+	}
+	.menu3-left{
+		width: 100%;
+		background: rgba(0,0,0,0.8);
+		top: 0;
+	}
+	.menu3-right{
+		width: 100%;
+		float: none;
+	}
+	.title-of-banner{
+		font-size: 40px;
+		left: 15px;
+	}
+	.section-class-name{
+		height: initial !important;
+	}
+	.title-menu2, #css3-animated-example h3 span{
+		font-size: 32px !important;
+	}
+	.title-menu2 b, #css3-animated-example h3 b{
+		font-size: 60px !important;
+	}
+	.box-1.height-60{
+		height: 80%;
+	}
+	.about-right .box-3 p{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.menu-3 .container-fluid{
+		padding: 0;
+	}
+	.news{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.about-right .box-3 h3{
+		margin: 10px 0;
+	}
+	.box-contact h3{
+		line-height: 30px;
+	}
+	.box-5.height-40, .box-4.height-60, .box-2.height-40{
+		min-height: 300px;
+	}
+	.about-left{
+		min-height: 500px;
+	}
+	.about-part{
+		height: initial;
+	}
+}
+div#blog {
+	overflow: hidden;
+}
+a.cpr {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
+.cpr:hover{
+	color: #fff;
+}
+h1.logo-h1 {
+	color: #fff;
+	font-size: 30px;
+	line-height: 1;
+}
+
+th{
+	color: orange;
+}
+.title-menu2{
+	text-align: center;
+	font-size: 40px;
+	color: orange;
+}
+.intro-menu{
+	font-size: 22px;
+
+}
