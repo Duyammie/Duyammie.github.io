@@ -4,8 +4,8 @@
 	border: 0;
 	box-sizing: border-box;
 	background: rgba(128, 128, 128, 0.05);
+	text-decoration: none;
 }
-
 /*--- menu 3 --*/
 .menu3-part{
 	min-height: 700px;

@@ -3,6 +3,7 @@
 	padding:0;
 	border: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 .background, #background2{
@@ -185,8 +186,10 @@ span{
 	font-size: 20px;
 	margin: 10px;
 	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
 
 }
+
 
 #background4{
 	width: 100%;
