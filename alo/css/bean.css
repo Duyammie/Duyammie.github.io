@@ -54,7 +54,7 @@ h1{
 	margin: 0 15px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
-    box-shadow:  0 9px 10px 3px black;
+    box-shadow:  6px 6px 6px 0px rgba(0, 0, 0, 0.52);
 }
 
 #background2 .b{
