@@ -99,9 +99,10 @@ h1{
 }
 
 #background3 h3{
+	margin-left: -325px;
 	position: absolute;
 	top: 0;
-	left: 33%;
+	left: 50%;
 	font-size: 40px;
 	color: white;
 	margin-top: 24px;
@@ -195,10 +196,9 @@ span{
 }
 
 .j{
-    width: 16.6%;
+    width: 16.666%;
     position: relative;
     float: left;
-    margin: 0px 0.64px;
     overflow: hidden;
 }
 
