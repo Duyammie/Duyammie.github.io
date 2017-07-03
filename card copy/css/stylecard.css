@@ -29,19 +29,19 @@ body {
 #snow{
 	background: none;
 	font-family: Androgyne;
-	background-image: url('http://1.bp.blogspot.com/-ytrK2hPBLnQ/URzdvY7N3cI/AAAAAAAAA8k/882gNcZcWQc/s1600/Namkna-blogspot-com_28.gif');
+	background-image: url('http://1.bp.blogspot.com/-EWQ-zWKt7X0/T_GQreyYJ4I/AAAAAAAADuo/60q49VpAVNk/s0/183_210.gif');
 	height: 100%;
 	left: 0;
 	position:absolute;
 	top: 0;
 	width: 100%;
 	z-index:-1;
-	animation: snow 10s linear infinite;
+	animation: snow 12s linear infinite;
 }
 
 @keyframes snow {
 	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+/*	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}*/
 	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
@@ -105,7 +105,7 @@ p{
 
 .div{
 	transform: scale(0);
-	transition-duration:1s;
+	transition-duration:0.5s;
 	left: -250px;
 
 }
